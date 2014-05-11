@@ -1,0 +1,4 @@
+rest:
+    type: rest
+    resource: "ThibaudRestBundle:Rest"
+    prefix: v1

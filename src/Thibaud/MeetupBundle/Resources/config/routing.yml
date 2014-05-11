@@ -1,0 +1,15 @@
+meetup:
+    pattern:  /meetup
+    defaults: { _controller: "ThibaudMeetupBundle:Meetup:index" }
+
+#login:
+#    pattern:  /login
+#    defaults: { _controller: "ThibaudMeetupBundle:Meetup:login" }
+
+show:
+    pattern:  /{slug}/show
+    defaults: { _controller: "ThibaudMeetupBundle:Meetup:show" }
+
+report_meetups:
+    pattern: /meetups/report/all.csv
+    defaults: { _controller: ThibaudMeetupBundle:Report:allMeetups, _format: csv }

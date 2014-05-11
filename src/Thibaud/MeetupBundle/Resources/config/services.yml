@@ -1,0 +1,7 @@
+services:
+    thibaud_meetup.reporting.reporting_manager:
+        class: Thibaud\MeetupBundle\Reporting\ReportingManager
+        arguments:
+            - "@doctrine.orm.entity_manager"
+        calls:
+            - [ setLogger, ["@logger"]]
