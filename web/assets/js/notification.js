@@ -1,5 +1,7 @@
 define(['jquery', 'alertify', 'socketio', 'domReady!'], function($, alertify, io, doc) {
 
+	console.log('notification.js called');
+
 	var socket = io.connect('http://localhost:3000');
 
     $('.click-me-button').on('click', function() {

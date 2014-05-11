@@ -1,5 +1,5 @@
-define(['jquery', 'backbone', 'marionette', 'domReady!'], function($, Backbone, Marionette, doc) {
-	
-	// Backbone.js app here !!!
+define(['jquery', 'backbone', 'domReady!'], function($, Backbone, doc) {
+
+	console.log('backbone.js called');
 
 });

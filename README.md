@@ -1,6 +1,11 @@
 Symfony app with REST API and Backbone
 ======================================
 
+Using:
+- RequireJS the javascript module loader.
+- Bower for frontend package management.
+- Node.js for realtime notifications.
+
 ### !!! This project is still in development !!!
 
 ### Installation

@@ -1,9 +1,7 @@
 {% extends '::base.html.twig' %}
 
 {% block requirejs %}
-    {{ include('::requirejs.html.twig', {
-        'module': 'app/index'
-    }) }}
+    {{ include('::requirejs.html.twig', { 'module': 'app/index' }) }}
 {% endblock %}
 
 {% block body %}

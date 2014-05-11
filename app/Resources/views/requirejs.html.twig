@@ -1,10 +1,8 @@
-<script type="text/javascript" src="{{ asset(assetsPath~'/vendor/requirejs/require.js') }}"></script>
+<script type="text/javascript" 
+		data-main="{{ asset(assetsPath~'/js/config.js') }}"
+		src="{{ asset(assetsPath~'/vendor/requirejs/require.js') }}"></script>
 <script type="text/javascript">
-    requirejs.config({
-        baseUrl: '/{{ assetsPath }}/js'
-    });
-
-    require(['config', 'notification', 'backbone'], function(config) {
+    require(['notification', 'backbone'], function() {
         {% if module %}
             require(['{{ module }}']);
         {% endif %}
