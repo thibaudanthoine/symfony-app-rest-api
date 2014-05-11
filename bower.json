@@ -1,0 +1,22 @@
+{
+  "name": "symfony-app-rest-api-backbone",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "latest",
+    "bootstrap": "~3.0.2",
+    "json2": "latest",
+    "requirejs": "~2.1.9",
+    "requirejs-domready": "~2.0.1",
+    "backbone": "latest",
+    "backbone.marionette": "latest",
+    "underscore": "latest",
+    "alertify": "latest"
+  }
+}

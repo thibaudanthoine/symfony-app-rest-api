@@ -14,4 +14,13 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
  */
 class MeetupController extends BaseController
 {
+	/**
+     * Lists all.
+     *
+     * @Template()
+     */
+    public function indexAction()
+    {
+        return array();
+    }
 }

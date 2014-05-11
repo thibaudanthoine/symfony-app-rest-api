@@ -3,9 +3,11 @@
 /app/cache/*
 /app/config/parameters.yml
 /app/logs/*
-!app/cache/.gitkeep
-!app/logs/.gitkeep
 /build/
 /vendor/
 /bin/
 /composer.phar
+/node_modules
+/web/assets/vendor
+/bower_components
+.DS_Store
