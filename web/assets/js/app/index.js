@@ -1,5 +1,3 @@
 define(['jquery', 'domReady!'], function($, doc) {
-
-	console.log('index.js called');
-	
+    console.log('index.js called');
 });
