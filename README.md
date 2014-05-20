@@ -25,6 +25,10 @@ php app/console doctrine:fixtures:load
 2 - Javascript
 
 ```
+npm install -g bower
+```
+
+```
 npm install
 ```
 
