@@ -1,4 +1,4 @@
-Symfony app with REST API and Backbone
+Symfony2 Web Application with REST API
 ======================================
 
 Using:
