@@ -1,4 +1,4 @@
-Symfony2 Web Application with REST API
+Symfony2 Web App with REST API
 ======================================
 
 Using:
