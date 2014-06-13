@@ -9,6 +9,11 @@ use Doctrine\Common\DataFixtures\AbstractFixture;
 
 use Thibaud\MeetupBundle\Entity\User;
 
+/**
+ * Class LoadUsers
+ *
+ * @package Thibaud\MeetupBundle\DataFixtures\ORM
+ */
 class LoadUsers extends AbstractFixture implements OrderedFixtureInterface
 {
     /**

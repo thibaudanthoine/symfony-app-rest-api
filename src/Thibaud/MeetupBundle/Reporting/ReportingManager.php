@@ -5,6 +5,11 @@ namespace Thibaud\MeetupBundle\Reporting;
 use Doctrine\Common\Persistence\ObjectManager;
 use Symfony\Bridge\Monolog\Logger;
 
+/**
+ * Class ReportingManager
+ *
+ * @package Thibaud\MeetupBundle\Reporting
+ */
 class ReportingManager
 {
     private $em;
@@ -16,6 +21,11 @@ class ReportingManager
         $this->em = $em;
     }
 
+    /**
+     * Generates CSV
+     *
+     * @return string
+     */
     public function getAll()
     {
         $this->logger->info('Generating CSV');

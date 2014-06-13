@@ -8,6 +8,5 @@ class RestControllerTest extends WebTestCase
 {
     public function testIndex()
     {
-    	// todo
     }
 }

@@ -4,20 +4,21 @@ namespace Thibaud\MeetupBundle\Controller;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-use Symfony\Bundle\FrameworkBundle\Controller\Controller as BaseController;
-
+use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 
 /**
- * Meetup controller.
+ * Class MeetupController
  *
+ * @package Thibaud\MeetupBundle\Controller
  */
-class MeetupController extends BaseController
+class MeetupController extends Controller
 {
-	/**
-     * Lists all.
+    /**
+     * Lists all
      *
      * @Template()
+     * @return array
      */
     public function indexAction()
     {

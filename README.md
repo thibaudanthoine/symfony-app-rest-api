@@ -1,12 +1,12 @@
 Symfony2 Web App with REST API
-======================================
+==============================
 
 Using:
 - RequireJS the javascript module loader.
 - Bower for frontend package management.
 - Node.js for realtime notifications.
 
-### !!! This project is still in development !!!
+/!\ Warning: This project is currently in development /!\
 
 ### Installation
 

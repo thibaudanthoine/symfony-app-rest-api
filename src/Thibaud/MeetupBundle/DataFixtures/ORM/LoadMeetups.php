@@ -9,6 +9,11 @@ use Doctrine\Common\DataFixtures\AbstractFixture;
 
 use Thibaud\MeetupBundle\Entity\Meetup;
 
+/**
+ * Class LoadMeetups
+ *
+ * @package Thibaud\MeetupBundle\DataFixtures\ORM
+ */
 class LoadMeetups extends AbstractFixture implements OrderedFixtureInterface
 {
     /**
@@ -23,14 +28,6 @@ class LoadMeetups extends AbstractFixture implements OrderedFixtureInterface
         $meetup->setLocation('New-York');
         $meetup->setTime(new \DateTime('tomorrow noon'));
         $meetup->setDescription('We can dance like Iggy');
-        $meetup->setOwner($user);
-        $manager->persist($meetup);
-
-        $meetup = new Meetup();
-        $meetup->setName('Welcome Home !');
-        $meetup->setLocation('Paris');
-        $meetup->setTime(new \DateTime('Saturday midnight'));
-        $meetup->setDescription('Welcome');
         $meetup->setOwner($user);
         $manager->persist($meetup);
 
