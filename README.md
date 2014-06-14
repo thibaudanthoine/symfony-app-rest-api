@@ -6,7 +6,7 @@ Using:
 - Bower for frontend package management.
 - Node.js for realtime notifications.
 
-/!\ Warning: This project is currently in development /!\
+/!\ Warning, this project is currently in development
 
 ### Installation
 
