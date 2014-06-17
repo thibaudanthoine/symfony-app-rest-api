@@ -1,7 +1,7 @@
 Symfony2 Web App with REST API
 ==============================
 
-/!\ Warning, this project is currently in development
+**/!\ Warning, this project is currently in development.**
 
 Using:
 - RequireJS the javascript module loader.
